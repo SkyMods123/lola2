@@ -12,7 +12,8 @@
     "watch-codegen": "graphql-codegen -w",
     "wc": "graphql-codegen -w",
     "tsc": "tsc",
-    "pages:build": "npx @cloudflare/next-on-pages"
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "export": "next export"  // Ovdje je dodana export komanda
   },
   "prettier": "@epic-web/config/prettier",
   "dependencies": {
